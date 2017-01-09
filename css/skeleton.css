@@ -431,14 +431,45 @@ there.
 
 /* Naveen's CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-mark{
-  padding-left: 5px;
-  padding-right: 5px; 
+
+/* Top Section */
+#intro{
+  padding-top: 20px;
 }
 
-.projects{
-  min-height: 200px;
+#story{
+  padding-top: 35px;
+  padding-bottom: 75px;
 }
+
+/* Font colors */
+#ur{
+  color: #e71d36; /* Red muted */
+}
+#entre{
+  color: #2ec4b6; /* Blue Vespa */
+}
+#designer{
+  color: #ff9f1c; /* Orangina */
+}
+
+/*Project Titles Formatting */
+
+.projects{
+  margin-bottom: 50px;
+}
+.projectName{
+  margin-bottom: 5px;
+}
+.timeline{
+  padding: none;
+  margin-bottom: 0px;
+}
+.copy{
+  margin-top: 5px;
+}
+
+/* Project pages */
 
 img{
   width:100%;
@@ -462,20 +493,24 @@ img{
     height: 100%;
 }
 
-#ur{
-  color: #e71d36; /* Red muted */
-
+/* Footer */
+#footer{
+  color: #c9c9c9;
+  float: right;
+} 
+#linkList{
+  float: left;
 }
-
-#entre{
-  color: #2ec4b6; /* Blue Vespa */
-}
-
-#designer{
-  color: #ff9f1c; /* Orangina */
-}
-
-#story{
-  padding-top: 35px;
-  padding-bottom: 75px;
+.links{
+  display: inline;
+  font-size: 1.5rem; 
+  line-height: 1.6;  
+  letter-spacing: 0;
+  padding-right: 10px;
+  }
+.decoration{
+  text-decoration: none;
+  font-size: 1.5rem; 
+  line-height: 1.6;  
+  letter-spacing: 0;
 }
