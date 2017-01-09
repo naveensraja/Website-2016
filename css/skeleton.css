@@ -433,7 +433,7 @@ there.
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Top Section */
-#intro{
+.intro{
   padding-top: 20px;
 }
 
