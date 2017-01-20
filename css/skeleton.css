@@ -168,7 +168,8 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #1EAEDB;
+  text-decoration-line: none; }
 a:hover {
   color: #0FA0CE; }
 
@@ -513,4 +514,16 @@ img{
   font-size: 1.5rem; 
   line-height: 1.6;  
   letter-spacing: 0;
+}
+
+/* PDF + Slides */
+#pdf{
+  padding-top: 8px;
+  padding-bottom: 20px;
+  display:block;
+  text-align:center;
+}
+
+.slides{
+  margin-bottom: 15px;
 }
