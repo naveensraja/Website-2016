@@ -444,6 +444,7 @@ there.
 }
 
 /* Font colors */
+
 .ur{
   color: #e71d36; /* Red muted */
 }
@@ -465,12 +466,12 @@ there.
   margin-bottom: 50px;
 }
 .projectName{
+  font-size: 2.4rem; 
+  line-height: 1.35; 
+  letter-spacing: -.08rem; 
   margin-bottom: 5px;
 }
-.timeline{
-  padding: none;
-  margin-bottom: 0px;
-}
+
 .copy{
   margin-top: 5px;
 }
