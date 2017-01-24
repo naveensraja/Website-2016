@@ -444,18 +444,23 @@ there.
 }
 
 /* Font colors */
-#ur{
+.ur{
   color: #e71d36; /* Red muted */
 }
-#entre{
+.entre{
   color: #2ec4b6; /* Blue Vespa */
 }
-#designer{
+.designer{
   color: #ff9f1c; /* Orangina */
 }
 
-/*Project Titles Formatting */
 
+/*Section Headlines */
+.headlines{
+  margin-bottom: 8px;
+}
+
+/*Project Titles Formatting */
 .projects{
   margin-bottom: 50px;
 }
