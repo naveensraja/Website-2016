@@ -173,6 +173,20 @@ a {
 a:hover {
   color: #0FA0CE; }
 
+.projectLink{
+  color: #1EAEDB;
+  text-decoration-line: underline;
+}
+
+.projectLink:hover {
+  color: #1EAEDB;
+  text-decoration-line: underline;
+  font-weight:700;
+}
+
+#name:hover{
+  color: #1EAEDB;
+}
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -453,6 +467,10 @@ there.
 }
 .designer{
   color: #ff9f1c; /* Orangina */
+}
+
+#name{
+  color:black;
 }
 
 
